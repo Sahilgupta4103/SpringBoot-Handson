@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Entry Bakcend APP UI</title>
+</head>
+<body>
+
+<h2>CRUD UI</h2>
+
+<input type="text" id="entryId" placeholder="Enter ID"> <br>
+<input type="text" id="entryTitle" placeholder="Enter Title"> <br>
+<input type="text" id="entryContent" placeholder="Enter Content"> <br>
+<br><br>
+
+<button onclick="createEntry()">Create</button>
+<button onclick="getEntry()">Get By ID</button>
+<button onclick="getALLEntries()">Get All</button>
+<button onclick="deleteEntry()">Delete</button>
+<button onclick="updateEntry()">Update</button>
+
+<pre id="output"></pre>
+
+<script src="app.js"></script>
+</body>
+</html>
